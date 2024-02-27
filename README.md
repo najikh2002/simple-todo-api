@@ -124,7 +124,6 @@
 Catatan:
 --------
 
-*   Pastikan untuk menggunakan URL dasar aplikasi, misalnya, `https://<nama-proyek>.onrender.com`.
 *   Semua data dikembalikan dalam format JSON.
 *   Jika terjadi kesalahan, pesan kesalahan akan dikembalikan bersama dengan status code yang sesuai.
 *   Gunakan metode HTTP yang benar (GET, POST, PUT, DELETE) sesuai dengan tindakan yang diinginkan.
