@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+import os
 
 app = Flask(__name__)
 
@@ -44,5 +45,7 @@ def delete_todo(todo_id):
     todos = [item for item in todos if item["id"] != todo_id]
     return jsonify({"message": "Tugas berhasil dihapus"})
 
+port = int(os.environ.get("PORT", 5000))
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=port)
