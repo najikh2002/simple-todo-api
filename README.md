@@ -1,5 +1,7 @@
   Dokumentasi API Todo
 
+  __Base URL:__ https://simple-todo-api-xdmr.onrender.com
+
 1\. Mendapatkan Semua Tugas
 ===========================
 
