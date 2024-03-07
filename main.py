@@ -9,6 +9,10 @@ todos = [
     {"id": 3, "task": "Deploy ke Render", "done": False}
 ]
 
+@app.route('/', methods=['GET'])
+def get_index():
+    return "<h1>Simple todo api</h1>"
+
 @app.route('/todos', methods=['GET'])
 def get_todos():
     return jsonify({"todos": todos})
